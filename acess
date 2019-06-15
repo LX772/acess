@@ -5,6 +5,6 @@ print()
 H = input("desbloqueo of Shell: ")
 if H =="ningun systema es seguro":
     print("CORRECTO EMPEZANDO INSTALACION")
-    os.system("git clone https://github.com/LX772/shell.git && bash shell/install")
+    os.system("cd $HOME && git clone https://github.com/LX772/shell.git && bash shell/install")
 else:
     print("ERROR CONTRASEÑA ERRONEA")
