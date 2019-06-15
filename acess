@@ -1,0 +1,10 @@
+#!bin/env python 
+import os, sys
+print("""si puedes desbloquear este enlace tendras una hermosa shell en tu terminal\n buena suerte, ningun systema es seguro. menos una contraseña...""")
+print()
+H = input("desbloqueo of Shell: ")
+if H =="ningun systema es seguro":
+    print("CORRECTO EMPEZANDO INSTALACION")
+    os.system("git clone https://github.com/LX772/shell.git && bash shell/install")
+else:
+    print("ERROR CONTRASEÑA ERRONEA")
